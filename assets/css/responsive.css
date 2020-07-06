@@ -1,0 +1,86 @@
+@media screen and (max-width: 768px) {
+    body,
+    .text-left,
+    .text-right {
+        text-align: center !important;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    #footer img {
+        margin-top: 20px;
+    }
+    #footer .text-right {
+        margin-top: 25px;
+    }
+    #membresia {
+        border-radius: 0px;
+        margin-bottom: 0px;
+    }
+    #navigation nav {
+        padding: 15px;
+    }
+    #arte .col-md-6 a,
+    #noticias .col-md-6 a {
+        margin-bottom: 25px;
+    }
+    #redes .col-md-4,
+    #redes .col-md-5,
+    #redes .col-md-6,
+    #archive_arte .col-md-3,
+    #galeria {
+        margin-bottom: 40px;
+    }
+    #sextoys .destacado .background {
+        height: 120px;
+        margin-top: 15px;
+    }
+    #sextoys .container {
+        padding-top: 0px;
+        padding-right: 15px;
+        padding-left: 15px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+    }
+    #sextoys.home {
+        padding-top: 40px;
+    }
+    #searchform {
+        display: none;
+    }
+    #slider,
+    #slider .background,
+    #slider .slick-slide {
+        height: 60vh;
+    }
+    #slider h3 {
+        font-size: 35px;
+    }
+    #slider h4 {
+        font-size: 20px;
+    }
+    #subnavigation,
+    #sextoys {
+        margin-top: 0;
+    }
+    #subnavigation .container {
+        border-radius: 0;
+    }
+    .pad-top-100,
+    .pad-top-150 {
+        padding-top: 60px;
+    }
+    .pad-bot-100,
+    .pad-bot-150 {
+        padding-bottom: 60px;
+    }
+    .divider:after {
+        margin: 15px auto;
+    }
+    .offset-1 {
+        margin-left: 0;
+    }
+    #galeria .background {
+        height: 350px;
+    }
+}

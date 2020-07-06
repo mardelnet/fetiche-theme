@@ -1,0 +1,528 @@
+a {
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #572364;
+}
+
+a.position-absolute {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    background: #f8f9fa;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+    background-color: #666;
+}
+
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.6);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #f7d0cc;
+    outline: 1px solid slategrey;
+}
+
+form input {
+    width: 100% !important;
+    border: 0 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#contacto iframe {
+    border: 0;
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    /*-webkit-filter: grayscale(100%);
+  filter: grayscale(100%);*/
+}
+
+#detalle .pink-background {
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#footer {
+    color: #ddd;
+}
+
+#footer i {
+    color: #f7d0cc;
+    font-size: 25px;
+}
+
+#footer img {
+    width: 100%;
+    max-width: 300px;
+}
+
+#galeria .background {
+    height: 500px;
+    border: 2px solid #ddd;
+    padding-top: 100%;
+}
+
+#galeria .background.img-producto {
+    padding-top: 0;
+}
+
+#membresia {
+    color: #fff;
+    padding: 25px !important;
+    border-radius: 5px;
+    margin-bottom: -50px;
+}
+
+#membresia [type=submit] {
+    width: auto !important;
+    font-size: 13px;
+    padding: 5px 20px;
+}
+
+#modal_productos li {
+    display: inline-block;
+    width: 24%;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#modal_productos strong {
+    font-size: 20px;
+    display: block;
+    margin-bottom: 35px;
+}
+
+#navigation nav {
+    padding-bottom: 35px;
+    z-index: 1;
+}
+
+#noticias .background,
+#archive_arte .background {
+    padding-top: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+
+
+#nosotrxs #galeria .background {
+    padding-top: inherit;
+    height: 250px;
+}
+
+#preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    background: #111;
+}
+
+#redes a {
+    font-size: 24px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.8);
+    top: -10px;
+    left: -15px;
+}
+
+#redes .background,
+#arte .background {
+    padding-top: 100%;
+}
+
+#searchform .screen-reader-text {
+    display: none;
+}
+
+#searchform #s,
+#searchform #searchsubmit {
+    display: inline-block;
+    width: 75% !important;
+    padding: 5px 10px;
+    margin-top: 5px;
+}
+
+#searchform #searchsubmit {
+    width: 24% !important;
+}
+
+#sextoys {
+    margin-top: -50px;
+}
+
+.inicio #sextoys .productos .background,
+.inicio #nosotrxs #galeria .background,
+.inicio #noticias.pink-background .background {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    transition: all 0.5s ease;
+}
+
+.inicio #sextoys .productos .background:hover,
+.inicio #nosotrxs #galeria .background:hover,
+.inicio #noticias.pink-background .background:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
+#sextoys .price {
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#sextoys .destacado h3 {
+    color: #fff;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+    line-height: 40px;
+    height: 40px;
+    font-weight: bold;
+}
+
+#sextoys .destacado .background {
+    width: 100%;
+    height: 100%;
+    max-height: 150px;
+    border: 0px;
+}
+
+#sextoys .destacado .background iframe {
+    max-height: 160px;
+}
+
+#sextoys .container {
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-left: 35px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#sextoys .slick-slide {
+    padding-right: 10px;
+}
+
+#slider {
+    margin-top: -50px;
+}
+
+#slider,
+#slider .background,
+#slider .slick-slide {
+    height: 80vh;
+    width: 100%;
+}
+
+#slider h3 {
+    text-align: center;
+    margin: auto;
+    bottom: 130px;
+    left: 0;
+    right: 0;
+    font-size: 65px;
+    line-height: 65px;
+    height: 65px;
+    color: #fff;
+    z-index: 2;
+    max-width: 600px;
+}
+
+#slider h4 {
+    display: block;
+    text-transform: none;
+    font-size: 25px;
+    line-height: 30px;
+    max-width: 600px;
+    text-align: center;
+    margin: auto;
+    bottom: 100px;
+    left: 0;
+    right: 0;
+    color: #fff;
+    z-index: 2;
+}
+
+#subnavigation {
+    margin-top: -25px;
+    z-index: 1;
+}
+
+#subnavigation .datos-contacto {
+    line-height: 40px;
+}
+
+#subnavigation .social i {
+    font-size: 30px;
+    line-height: 40px;
+}
+
+#subnavigation .container {
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.background {
+    background-position: center center;
+    background-color: #222;
+    background-size: cover;
+}
+
+.bg-dark {
+    background-color: #000 !important;
+}
+
+.bg-light {
+    background-color: #ddd !important;
+}
+
+.bg-white {
+    background-color: #f8f9fa !important;
+}
+
+.black-background {
+    background-color: #000;
+}
+
+.categorias {
+    background: white;
+    padding: 30px;
+    box-shadow: 3px 3px 10px #bbb;
+}
+
+.dark-background {
+    color: #fff;
+    background: rgba(0, 0, 0, 0.8);
+    margin-top: 10px;
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.dark-color {
+    color: #333;
+}
+
+.divider:after {
+    content: "";
+    background: #555;
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    height: 2px;
+    margin: 15px 0 30px;
+}
+
+.logo-divider:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    top: -35px;
+    background-image: url(../images/logo.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.font2 {
+    font-family: 'Lora', serif;
+}
+
+.navbar-brand img {
+    width: 100%;
+    max-width: 200px;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.fb_iframe_widget span {
+    width: 100% !important;
+}
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.mar-bot-15 {
+    margin-bottom: 15px;
+}
+
+.mar-bot-30 {
+    margin-bottom: 30px;
+}
+
+.mar-bot-50 {
+    margin-bottom: 50px;
+}
+
+.mar-top-15 {
+    margin-top: 15px;
+}
+
+.modal-open .modal {
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+.modal-body {
+    padding: 30px;
+    border: 10px solid #f7d0cc;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9) 30%, transparent);
+    z-index: 1;
+}
+
+.pad-bot-50 {
+    padding-bottom: 40px;
+}
+
+.pad-top-50 {
+    padding-top: 40px;
+}
+
+.pad-bot-100 {
+    padding-bottom: 100px;
+}
+
+.pad-top-100 {
+    padding-top: 100px;
+}
+
+.pad-bot-150 {
+    padding-bottom: 130px;
+}
+
+.pad-top-150 {
+    padding-top: 130px;
+}
+
+.pink-background {
+    background-color: #f7d0cc;
+}
+
+.pink-color {
+    color: #f7d0cc;
+}
+
+.productos {
+    width: 100%;
+}
+
+.productos .background {
+    width: 100%;
+    padding-top: 100%;
+    border: 1px solid #ddd;
+}
+
+.typewriter {
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange;
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    animation: typing 4.0s infinite steps(40, end), blink-caret .75s step-end infinite;
+}
+
+.typewriter2 {
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange;
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    animation: typing 4.0s infinite steps(40, end), blink-caret .75s step-end infinite;
+}
+
+.wpcf7 input,
+.wpcf7 textarea {
+    border: 1px solid #ccc !important;
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    max-height: 150px;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width: 100%
+    }
+}
+
+@keyframes blink-caret {
+    from,
+    to {
+        border-color: transparent
+    }
+    50% {
+        border-color: white;
+    }
+}
